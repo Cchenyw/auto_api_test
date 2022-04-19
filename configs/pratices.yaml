@@ -1,0 +1,12 @@
+person:
+  name: vivi
+  age: 1
+color:
+  - red
+  - blue
+  - green
+n1: 9
+n2: nihao
+n3: true
+n4: false
+n5: 'ssss'
