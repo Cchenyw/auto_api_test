@@ -1,0 +1,4 @@
+logger:
+  name: DEBUG LEVEL
+  level: DEBUG
+  format: '%(filename)s-%(name)-%(lineno)d-%(asctime)s-%(levelname)s-%(message)s'
