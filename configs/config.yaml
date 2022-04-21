@@ -1,4 +1,14 @@
-logger:
+logger_1:
   name: DEBUG LEVEL
   level: DEBUG
-  format: '%(filename)s-%(name)-%(lineno)d-%(asctime)s-%(levelname)s-%(message)s'
+  format: '%(filename)s-->%(funcName)s-->%(lineno)d %(asctime)s [%(levelname)s]-%(message)s'
+
+logger_2:
+  name: INFO LEVEL
+  level: INFO
+  format: '%(filename)s-->%(funcName)s-->%(lineno)d %(asctime)s [%(levelname)s]-%(message)s'
+
+logger_3:
+  name: ERROR LEVEL
+  level: ERROR
+  format: '%(filename)s-->%(funcName)s-->%(lineno)d %(asctime)s [%(levelname)s]-%(message)s'

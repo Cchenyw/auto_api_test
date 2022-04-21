@@ -16,6 +16,4 @@ class YamlHandler:
             return yaml.dump(f.write(data, stream=f, allow_unicode=True))
 
 
-if __name__ == "__main__":
-    yaml_data = YamlHandler('../configs/config.yaml').read_yaml()
-    print(yaml_data)
+yaml_data = YamlHandler('../configs/config.yaml').read_yaml()
