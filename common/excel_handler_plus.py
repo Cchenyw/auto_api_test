@@ -4,8 +4,7 @@ from common.excel_handler import ExcelHandler
 
 class ExcelHandlerPlus(ExcelHandler):
     def read_excel(self, sheet_name):
-        sheet = self.open_excel(sheet_name)
-        rows = sheet.rows
+        pass
 
 
 if __name__ == "__main__":
