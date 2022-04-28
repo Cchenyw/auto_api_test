@@ -37,6 +37,7 @@ class TestAPIPytest:
             # 不严格校验，只校验格式
             for ex_re in zip(expected_kws, result_kws):
                 assert ex_re[0]['key'] == ex_re[1]['key']
+                assert ex_re[0]['r_path'] == ex_re[1]['r_path']
             result = 'pass'
             logger.info(f'{res.json()}')
             logger.info(f'test-result: {result}')
