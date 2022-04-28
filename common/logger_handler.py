@@ -10,7 +10,7 @@ class LoggerHandler(logging.Logger):
         fmt = logging.Formatter(log_format)
         # if import the file, output the file log
         if file:
-            file_handler = logging.FileHandler(file)
+            file_handler = logging.FileHandler(file, encoding='utf-8')
             file_handler.setLevel(level)
             file_handler.setFormatter(fmt)
             self.addHandler(file_handler)
@@ -22,4 +22,5 @@ class LoggerHandler(logging.Logger):
 
 
 logger = LoggerHandler(name=yaml_data['logger_1']['name'], level=yaml_data['logger_1']['level'],
-                       file='../logs/my_log.txt', log_format=yaml_data['logger_1']['format'])
+                       file='../logs/my_log.txt',
+                       log_format=yaml_data['logger_1']['format'])

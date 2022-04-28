@@ -1,30 +1,8 @@
-test_login_ddt.py-->test_login-->32 2022-04-22 00:05:13,421 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 00:05:13,421 [INFO]-当前是第2条用例：login success
-test_login_ddt.py-->test_login-->34 2022-04-22 00:05:13,421 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': 200, 'actual': 200, 'test_result': 'fail'}
-test_login_ddt.py-->test_login-->40 2022-04-22 00:05:13,662 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEJTZ3hNPSI.FUMSOQ.t6dpAv4W8vdHaBTGN_0VrfC_hjo'}
-test_login_ddt.py-->test_login-->52 2022-04-22 00:05:13,745 [INFO]-The result has been written to excel
-test_login_ddt.py-->test_login-->32 2022-04-22 00:05:13,746 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 00:05:13,747 [INFO]-当前是第3条用例：phone is null
-test_login_ddt.py-->test_login-->34 2022-04-22 00:05:13,747 [INFO]-当前测试数据：{'case_id': 3, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'phone is null', 'method': 'post', 'payload': "{'phone': '','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': 400, 'actual': 400, 'test_result': 'fail'}
-test_login_ddt.py-->test_login-->40 2022-04-22 00:05:13,939 [INFO]-{'err': 13001, 'msg': 'Need image code', 'stat': 0}
-test_login_ddt.py-->test_login-->52 2022-04-22 00:05:14,013 [INFO]-The result has been written to excel
-test_login_ddt.py-->test_login-->32 2022-04-22 00:05:14,014 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 00:05:14,014 [INFO]-当前是第4条用例：password is null
-test_login_ddt.py-->test_login-->34 2022-04-22 00:05:14,015 [INFO]-当前测试数据：{'case_id': 4, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'password is null', 'method': 'post', 'payload': "{'phone': '17520544566','password':'','remember': 0,'code': '','area_code': '86'}", 'expected': 400, 'actual': 400, 'test_result': 'fail'}
-test_login_ddt.py-->test_login-->40 2022-04-22 00:05:14,205 [INFO]-{'err': 13003, 'msg': 'Account or pwd error'}
-test_login_ddt.py-->test_login-->52 2022-04-22 00:05:14,282 [INFO]-The result has been written to excel
-test_login_ddt.py-->test_login-->32 2022-04-22 17:02:25,649 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 17:02:25,650 [INFO]-当前是第2条用例：login success
-test_login_ddt.py-->test_login-->34 2022-04-22 17:02:25,650 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': 200, 'actual': 200, 'test_result': 'pass'}
-test_login_ddt.py-->test_login-->40 2022-04-22 17:02:26,229 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEJZazBZPSI.FUQAog.u7G-kl9BKOlETmAadVYyZxiVE3c'}
-test_login_ddt.py-->test_login-->52 2022-04-22 17:02:26,303 [INFO]-The result has been written to excel
-test_login_ddt.py-->test_login-->32 2022-04-22 17:02:26,305 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 17:02:26,305 [INFO]-当前是第3条用例：phone is null
-test_login_ddt.py-->test_login-->34 2022-04-22 17:02:26,305 [INFO]-当前测试数据：{'case_id': 3, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'phone is null', 'method': 'post', 'payload': "{'phone': '','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': 400, 'actual': 400, 'test_result': 'pass'}
-test_login_ddt.py-->test_login-->40 2022-04-22 17:02:26,551 [INFO]-{'err': 13001, 'msg': 'Need image code', 'stat': 0}
-test_login_ddt.py-->test_login-->52 2022-04-22 17:02:26,614 [INFO]-The result has been written to excel
-test_login_ddt.py-->test_login-->32 2022-04-22 17:02:26,616 [INFO]-****************************************************************************************
-test_login_ddt.py-->test_login-->33 2022-04-22 17:02:26,616 [INFO]-当前是第4条用例：password is null
-test_login_ddt.py-->test_login-->34 2022-04-22 17:02:26,616 [INFO]-当前测试数据：{'case_id': 4, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'password is null', 'method': 'post', 'payload': "{'phone': '17520544566','password':'','remember': 0,'code': '','area_code': '86'}", 'expected': 400, 'actual': 400, 'test_result': 'pass'}
-test_login_ddt.py-->test_login-->40 2022-04-22 17:02:26,851 [INFO]-{'err': 13003, 'msg': 'Account or pwd error'}
-test_login_ddt.py-->test_login-->52 2022-04-22 17:02:26,924 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 01:36:51,856 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 01:36:51,857 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 01:36:51,857 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 01:36:51,857 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 01:36:52,045 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaGhJPSI.FUxiNA.Z7keT48eoB4rnByQ8VgAgQzbFzs'}
+test_api_pytest.py-->test_api-->41 2022-04-29 01:36:52,046 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaGhJPSI.FUxiNA.Z7keT48eoB4rnByQ8VgAgQzbFzs'}
+test_api_pytest.py-->test_api-->42 2022-04-29 01:36:52,047 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->54 2022-04-29 01:36:52,098 [INFO]-The result has been written to excel
