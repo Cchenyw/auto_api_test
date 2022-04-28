@@ -1,24 +1,113 @@
-test_api_pytest.py-->test_api-->23 2022-04-29 01:36:51,856 [INFO]-****************************************************************************************
-test_api_pytest.py-->test_api-->24 2022-04-29 01:36:51,857 [INFO]-当前是第2条用例：login success
-test_api_pytest.py-->test_api-->25 2022-04-29 01:36:51,857 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
-test_api_pytest.py-->test_api-->26 2022-04-29 01:36:51,857 [INFO]-start request
-test_api_pytest.py-->test_api-->30 2022-04-29 01:36:52,045 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaGhJPSI.FUxiNA.Z7keT48eoB4rnByQ8VgAgQzbFzs'}
-test_api_pytest.py-->test_api-->41 2022-04-29 01:36:52,046 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaGhJPSI.FUxiNA.Z7keT48eoB4rnByQ8VgAgQzbFzs'}
-test_api_pytest.py-->test_api-->42 2022-04-29 01:36:52,047 [INFO]-test-result: pass
-test_api_pytest.py-->test_api-->54 2022-04-29 01:36:52,098 [INFO]-The result has been written to excel
-test_api_pytest.py-->test_api-->23 2022-04-29 01:37:42,525 [INFO]-****************************************************************************************
-test_api_pytest.py-->test_api-->24 2022-04-29 01:37:42,525 [INFO]-当前是第2条用例：login success
-test_api_pytest.py-->test_api-->25 2022-04-29 01:37:42,525 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
-test_api_pytest.py-->test_api-->26 2022-04-29 01:37:42,526 [INFO]-start request
-test_api_pytest.py-->test_api-->30 2022-04-29 01:37:42,698 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaG1JPSI.FUxiZg.gbtCdE8MkJIv99d_vyZTx0_h3p4'}
-test_api_pytest.py-->test_api-->41 2022-04-29 01:37:42,699 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaG1JPSI.FUxiZg.gbtCdE8MkJIv99d_vyZTx0_h3p4'}
-test_api_pytest.py-->test_api-->42 2022-04-29 01:37:42,699 [INFO]-test-result: pass
-test_api_pytest.py-->test_api-->54 2022-04-29 01:37:42,753 [INFO]-The result has been written to excel
-test_api_pytest.py-->test_api-->23 2022-04-29 01:38:44,524 [INFO]-****************************************************************************************
-test_api_pytest.py-->test_api-->24 2022-04-29 01:38:44,524 [INFO]-当前是第2条用例：login success
-test_api_pytest.py-->test_api-->25 2022-04-29 01:38:44,524 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
-test_api_pytest.py-->test_api-->26 2022-04-29 01:38:44,527 [INFO]-start request
-test_api_pytest.py-->test_api-->30 2022-04-29 01:38:44,709 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaHlRPSI.FUxipA.VFwk1pK4Dpq-LZVpoB0C2nkF4sQ'}
-test_api_pytest.py-->test_api-->42 2022-04-29 01:38:44,710 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUaHlRPSI.FUxipA.VFwk1pK4Dpq-LZVpoB0C2nkF4sQ'}
-test_api_pytest.py-->test_api-->43 2022-04-29 01:38:44,711 [INFO]-test-result: pass
-test_api_pytest.py-->test_api-->55 2022-04-29 01:38:44,768 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:24:59,206 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:24:59,206 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:24:59,206 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:24:59,206 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:24:59,388 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRkprPSI.FUxtew.WTpRAKZPNNrm_SdxGviRpps56xw'}
+test_api_pytest.py-->test_api-->47 2022-04-29 02:24:59,390 [ERROR]-用例执行失败，assert 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI' == 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRkprPSI.FUxtew.WTpRAKZPNNrm_SdxGviRpps56xw'
+test_api_pytest.py-->test_api-->56 2022-04-29 02:24:59,445 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:25:58,254 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:25:58,254 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:25:58,254 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:25:58,254 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:25:58,428 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRlZnPSI.FUxttg.C7YZlR4wnn6s8lNxYoBv1501TZs'}
+test_api_pytest.py-->test_api-->47 2022-04-29 02:25:58,429 [ERROR]-用例执行失败，assert 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI' == 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRlZnPSI.FUxttg.C7YZlR4wnn6s8lNxYoBv1501TZs'
+test_api_pytest.py-->test_api-->56 2022-04-29 02:25:58,479 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:26:20,073 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:26:20,073 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:26:20,073 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:26:20,074 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:26:20,268 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRllBPSI.FUxtzA.PcJuEFkshc4xb4ihCXjjkQBEP2Y'}
+test_api_pytest.py-->test_api-->47 2022-04-29 02:26:20,269 [ERROR]-用例执行失败，assert 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI' == 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRllBPSI.FUxtzA.PcJuEFkshc4xb4ihCXjjkQBEP2Y'
+test_api_pytest.py-->test_api-->56 2022-04-29 02:26:20,322 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:27:32,385 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:27:32,385 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:27:32,386 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:27:32,388 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:27:32,555 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRmxJPSI.FUxuFA.9zPeIHLKqVncM5-Inrwv7JYavOU'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:27:32,557 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVRmxJPSI.FUxuFA.9zPeIHLKqVncM5-Inrwv7JYavOU'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:27:32,557 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:27:32,608 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:39:30,224 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:39:30,224 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:39:30,224 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:39:30,224 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:39:30,410 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSTNBPSI.FUxw4g._9Z8SvTCjgLWfXvDHu3eqMqVtCg'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:39:30,411 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSTNBPSI.FUxw4g._9Z8SvTCjgLWfXvDHu3eqMqVtCg'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:39:30,411 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:39:30,464 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:41:11,508 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:41:11,508 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:41:11,508 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:41:11,508 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:41:11,678 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSkhFPSI.FUxxRw.5xctxDtJlnMtIXIXxjQ_o7CHQvM'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:41:11,679 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSkhFPSI.FUxxRw.5xctxDtJlnMtIXIXxjQ_o7CHQvM'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:41:11,679 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:41:11,733 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:41:31,184 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:41:31,185 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:41:31,185 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:41:31,187 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:41:31,362 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSkpFPSI.FUxxWw.dsppy8lvHOTkXEH6UDthJlTy4oo'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:41:31,364 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSkpFPSI.FUxxWw.dsppy8lvHOTkXEH6UDthJlTy4oo'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:41:31,364 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:41:31,417 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:42:16,374 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:42:16,375 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:42:16,375 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:42:16,377 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:42:16,548 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSlRZPSI.FUxxiA.TvFJtWObSgKN7cseDkZWdRt3JpY'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:42:16,549 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSlRZPSI.FUxxiA.TvFJtWObSgKN7cseDkZWdRt3JpY'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:42:16,549 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:42:16,602 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:43:37,469 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:43:37,469 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:43:37,469 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:43:37,472 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:43:37,623 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSmhjPSI.FUxx2Q.qvDw-GQnnQ70R8Umfomb6AoWVwc'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:43:37,624 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSmhjPSI.FUxx2Q.qvDw-GQnnQ70R8Umfomb6AoWVwc'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:43:37,624 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:43:37,682 [INFO]-The result has been written to excel
+test_login_ddt.py-->test_login-->32 2022-04-29 02:43:38,659 [INFO]-****************************************************************************************
+test_login_ddt.py-->test_login-->33 2022-04-29 02:43:38,660 [INFO]-当前是第2条用例：login success
+test_login_ddt.py-->test_login-->34 2022-04-29 02:43:38,660 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'pass'}
+test_login_ddt.py-->test_login-->43 2022-04-29 02:43:38,813 [ERROR]-用例执行失败，200 != "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdP[56 chars]bI'}"
+test_login_ddt.py-->test_login-->52 2022-04-29 02:43:38,863 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:45:51,703 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:45:51,703 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:45:51,703 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:45:51,705 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:45:51,869 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSjFFPSI.FUxyXw.DI_R-SPZHPHiD6LXlcRtEbDzGs0'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:45:51,870 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSjFFPSI.FUxyXw.DI_R-SPZHPHiD6LXlcRtEbDzGs0'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:45:51,870 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:45:51,922 [INFO]-The result has been written to excel
+test_login_ddt.py-->test_login-->32 2022-04-29 02:45:53,020 [INFO]-****************************************************************************************
+test_login_ddt.py-->test_login-->33 2022-04-29 02:45:53,020 [INFO]-当前是第2条用例：login success
+test_login_ddt.py-->test_login-->34 2022-04-29 02:45:53,020 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_login_ddt.py-->test_login-->43 2022-04-29 02:45:53,200 [ERROR]-用例执行失败，200 != "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdP[56 chars]bI'}"
+test_login_ddt.py-->test_login-->52 2022-04-29 02:45:53,250 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:46:14,070 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:46:14,071 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:46:14,071 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:46:14,071 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:46:14,236 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSjNRPSI.FUxydg.VPB8Gt5uhhBAUh2icHLe0ussV0w'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:46:14,237 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVSjNRPSI.FUxydg.VPB8Gt5uhhBAUh2icHLe0ussV0w'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:46:14,237 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:46:14,291 [INFO]-The result has been written to excel
+test_login_ddt.py-->test_login-->32 2022-04-29 02:46:15,303 [INFO]-****************************************************************************************
+test_login_ddt.py-->test_login-->33 2022-04-29 02:46:15,303 [INFO]-当前是第2条用例：login success
+test_login_ddt.py-->test_login-->34 2022-04-29 02:46:15,303 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_login_ddt.py-->test_login-->43 2022-04-29 02:46:15,486 [ERROR]-用例执行失败，200 != "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdP[56 chars]bI'}"
+test_login_ddt.py-->test_login-->52 2022-04-29 02:46:15,533 [INFO]-The result has been written to excel
+test_api_pytest.py-->test_api-->23 2022-04-29 02:47:19,810 [INFO]-****************************************************************************************
+test_api_pytest.py-->test_api-->24 2022-04-29 02:47:19,811 [INFO]-当前是第2条用例：login success
+test_api_pytest.py-->test_api-->25 2022-04-29 02:47:19,811 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_api_pytest.py-->test_api-->26 2022-04-29 02:47:19,811 [INFO]-start request
+test_api_pytest.py-->test_api-->30 2022-04-29 02:47:20,101 [DEBUG]-response: {'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVS0VBPSI.FUxyuA.fgv1Q7dRUL6yzFZFJU2vWJwDtbs'}
+test_api_pytest.py-->test_api-->44 2022-04-29 02:47:20,102 [INFO]-{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVVS0VBPSI.FUxyuA.fgv1Q7dRUL6yzFZFJU2vWJwDtbs'}
+test_api_pytest.py-->test_api-->45 2022-04-29 02:47:20,102 [INFO]-test-result: pass
+test_api_pytest.py-->test_api-->57 2022-04-29 02:47:20,154 [INFO]-The result has been written to excel
+test_login_ddt.py-->test_login-->32 2022-04-29 02:47:21,118 [INFO]-****************************************************************************************
+test_login_ddt.py-->test_login-->33 2022-04-29 02:47:21,118 [INFO]-当前是第2条用例：login success
+test_login_ddt.py-->test_login-->34 2022-04-29 02:47:21,119 [INFO]-当前测试数据：{'case_id': 2, 'model_name': 'platform', 'url': 'https://user.tungee.com/api/individual-user/login', 'headers': "{'Referer': 'https://user.tungee.com/users/sign-in'}", 'case_title': 'login success', 'method': 'post', 'payload': "{'phone': '17520544566','password':'69b77fe60044a9706bddd58cd37373d6','remember': 0,'code': '','area_code': '86'}", 'expected': "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdPdVJ4dG02dU1GbEVUVlVZPSI.FUxWOg.mUXle5yjWRubFyOaW7zEaytmYbI'}", 'actual': 200, 'test_result': 'fail'}
+test_login_ddt.py-->test_login-->43 2022-04-29 02:47:21,266 [ERROR]-用例执行失败，200 != "{'stat': 1, 'web_vd_code': 'IllPS0YxRzdP[56 chars]bI'}"
+test_login_ddt.py-->test_login-->52 2022-04-29 02:47:21,312 [INFO]-The result has been written to excel

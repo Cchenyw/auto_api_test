@@ -41,7 +41,7 @@ class StringHandler:
                     self.get_items(t_list=value, r_path=r_path)
                 else:
                     print(f'value:{value}, path:{r_path}')
-                    self.dict_list.append(self.package_data(['key', 'value', 'r_path'], [key, value, r_path]))
+                    self.dict_list.append(self.package_data(['value', 'r_path'], [value, r_path]))
         else:
             for key, value in self.d_string.items():
                 # recover r_path
