@@ -16,6 +16,7 @@ class TestAPIPytest:
 
     excel = ExcelHandler(my_path)
     case_data = excel.read_excel('Sheet1')
+    print(case_data)
 
     @pytest.mark.parametrize("case", case_data)
     def test_api(self, case):
@@ -28,6 +29,7 @@ class TestAPIPytest:
         res = rh.visit(method=case['method'], url=case['url'], data=eval(case['payload']),
                        headers=eval(case['headers']))
         logger.debug(f'response: {res.json()}')
+        # 这里有问题：这个时候关闭session之后，后面session就不能使用了，每次执行都需要重新建立session
         rh.close_session()
 
         # 数据比对
